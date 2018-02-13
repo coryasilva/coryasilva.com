@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+	<title>Cory Silva</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no">
+	<meta name="author" content="Cory Silva">
+	<meta name="description" content="Cory Silva's web development and design portfolio in the following industries: environmental sciences, architecture, construction, manufacturing and mortgage.">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,500,700|Open+Sans:800" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.css"/>
+	<link rel="icon" type="image/png" href="favicon.png" />
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.js"></script>
+	<style>
+	/* Globals */
+	html, body { font-family: Georgia, Times, "Times New Roman", serif }
+	
+	/* Typography */
+	h1, h2, h3, h4, h5, h6 { font-family: 'Open Sans', sans-serif; font-weight: 800 }
+	
+	/* Bootstrap Overrides */
+	.navbar-brand { font-family: 'Open Sans', sans-serif; font-weight: 800 }
+	.lead { font-style: italic }
+	.jumbotron { background-color: transparent }
+	.badge { font-family: 'Open Sans Condensed', sans-serif; color: #000; font-weight: 300 }
+	
+	/* Bootstrap Extensions */
+	.badge-light { background-color: #eee }
+	.bg-white { background: #fff }
+	.condensed { font-family: 'Open Sans Condensed', sans-serif }
+	
+	/* Custom */
+	.cs-heading { font-family: 'Open Sans Condensed', sans-serif; font-size: 1.5rem }
+	.cs-tags { font-size: 1.25rem }
+	.cs-image { display: block; max-width: 100%; height: auto; max-height: 500px; margin-right: auto; margin-left: auto } 
+	</style>
+  </head>
+  <body>
+  
+	<!-- Header/Nav -->
+	<nav class="navbar navbar-toggleable-sm navbar-light bg-white" style="z-index:1000">
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<a href="#home" class="navbar-brand mb-0">CS</a>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul id="menu" class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a data-menuanchor="rates" class="nav-link" href="#rates">work</a>
+				</li>
+				<li class="nav-item">
+					<a data-menuanchor="bio" class="nav-link" href="#bio">bio</a>
+				</li>
+			</ul>
+		</div>
+	</nav><!-- END Header/Nav -->
+	
+	<!-- Content -->
+	<div id="pages" >
+	
+		<!-- Home -->
+		<div class="section">
+			<div class="container">
+				<div class="jumbotron">
+				  <h1 class="display-3">Cory Silva</h1>
+				  <p class="lead">I'm a web developer + designer with a love for IT and GIS.</p>
+				</div>
+			</div>
+		</div><!-- END Home -->
+		
+		<!-- Project 1 -->
+		<div class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<img src="images/rates1.png" class="cs-image hidden-md-down" alt="Mortgage index rates REST microservice">
+						<img src="images/rates1alt.png" class="cs-image hidden-lg-up" alt="Mortgage index rates REST microservice">
+					</div>
+					<div class="col-lg-6">
+						<h2 class="mt-md-3 mt-lg-5">Rates</h2>
+						<p class="lead">This microservice was used internally and leveraged as a marketing app to aid lenders in the pricing of ARM loan products.</p>
+						<h3 class="cs-heading">Role</h3>
+						<ul>
+							<li>UI/UX Design</li>
+							<li>Integrate with the Federal Reserve Economic Dataset</li>
+							<li>Integrate with Floify app store</li>
+						</ul>
+						<h4 class="cs-tags">
+							<span class="badge badge-pill badge-light">Coldfusion</span>
+							<span class="badge badge-pill badge-light">Coldbox</span>
+							<span class="badge badge-pill badge-light">REST/Swagger</span>
+							<span class="badge badge-pill badge-light">Kendo</span>
+							<span class="badge badge-pill badge-light">AngularJS</span>
+							<span class="badge badge-pill badge-light">PostgreSQL</span>
+						</h4>
+					</div>
+
+				</div>
+			</div>
+		</div><!-- END Project 1 -->
+		
+		<!-- Project 2 -->
+		<div class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<img src="images/aus1.png" class="cs-image" alt="automated underwriting system for non-qm market">
+					</div>
+					<div class="col-lg-6">
+						<h2 class="mt-3">Automated Underwriting</h2>
+						<p class="lead">Mortgage loan decisioning engine and single page application for the non-conforming market.</p>
+						<h3 class="cs-heading">Role</h3>
+						<ul>
+							<li>Needs analysis, data modeling, and application design</li>
+							<li>Build integrations to credit reporting agencies</li>
+							<li>Interpret investor guidelines to business rules</li>
+							<li>Successfully handle Investor (client) UAT signoff</li>
+						</ul>
+						<h4 class="cs-tags">
+							<span class="badge badge-pill badge-light">AngularJS</span>
+							<span class="badge badge-pill badge-light">Coldfusion</span>
+							<span class="badge badge-pill badge-light">REST</span>
+							<span class="badge badge-pill badge-light">PostgreSQL</span>
+							<span class="badge badge-pill badge-light">MISMO</span>
+						</h4>
+					</div>
+
+				</div>
+			</div>
+		</div><!-- END Project 2 -->
+		
+		<!-- Project 3 -->
+		<div class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<img src="images/ark1.png" class="cs-image" alt="Historic aerial photography cataloging and geolocated retrieval">
+					</div>
+					<div class="col-lg-6">
+						<h2 class="mt-md-3">Aerial Photography</h2>
+						<p class="lead">Back office historic aerial archiving, georeferencing, and public automated retrieval.</p>
+						<h3 class="cs-heading">Role</h3>
+						<ul>
+							<li>Frontend and Backend Development</li>
+							<li>Create storage strategy and schema of 12TB</li>
+							<li>Integrated with XSEDE network as a pilot program</li>
+							<li>Establish geo-referencing workflow</li>
+						</ul>
+						<h4 class="cs-tags">
+							<span class="badge badge-pill badge-light">AngularJS</span>
+							<span class="badge badge-pill badge-light">Firebase</span>
+							<span class="badge badge-pill badge-light">ArcMap</span>
+							<span class="badge badge-pill badge-light">ArcGIS Server</span>
+							<span class="badge badge-pill badge-light">Leaflet</span>
+							<span class="badge badge-pill badge-light">Go</span>
+						</h4>
+					</div>
+				</div>
+			</div>
+		</div><!-- END Project 3 -->
+		
+		<!-- Project 4 -->
+		<div class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<img src="images/bim1.png" class="cs-image hidden-md-down" alt="BIM construction management and asset tracking">
+						<img src="images/bim1alt.png" class="cs-image hidden-lg-up" alt="BIM construction management and asset tracking">
+					</div>
+					<div class="col-lg-6">
+						<h2 class="mt-md-3 mt-lg-5">Building Information Model</h2>
+						<p class="lead">Custom BIMServer integration into a Construction Management SaaS application.</p>
+						<h3 class="cs-heading">Role</h3>
+						<ul>
+							<li>Design and develop UI/UX</li>
+							<li>Define REST endpoints and data models</li>
+							<li>Research and development of a Proof of Concept and MVP</li>
+						</ul>
+						<h4 class="cs-tags">
+							<span class="badge badge-pill badge-light">Coldfusion</span>
+							<span class="badge badge-pill badge-light">REST</span>
+							<span class="badge badge-pill badge-light">MSSQL</span>
+							<span class="badge badge-pill badge-light">jQuery UI</span>
+							<span class="badge badge-pill badge-light">OpenSourceBIM</span>
+							<span class="badge badge-pill badge-light">SceneJS</span>
+							<span class="badge badge-pill badge-light">Java</span>
+						</h4>
+					</div>
+				</div>
+			</div>
+		</div><!-- END Project 4 -->
+		
+		<!-- Project 5 -->
+		<div class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<img src="images/fpm1.jpg" class="cs-image" alt="GIS asset management facilities management web application">
+					</div>
+					<div class="col-lg-6">
+						<h2 class="mt-md-3">Facilities Management</h2>
+						<p class="lead">Custom GIS portal with thematic mapping applications for facilities planning and management.</p>
+						<h3 class="cs-heading">Role</h3>
+						<ul>
+							<li>Needs analysis with facilities stakeholders</li>
+							<li>Front End development, UI/UX</li>
+							<li>Build & optimize map services & schemas</li>
+							<li>QA/QC datasets & assets</li>
+						</ul>
+						<h4 class="cs-tags">
+							<span class="badge badge-pill badge-light">ArcGIS Server</span>
+							<span class="badge badge-pill badge-light">ArcSDE</span>
+							<span class="badge badge-pill badge-light">ArcGIS Desktop</span>
+							<span class="badge badge-pill badge-light">Javascript</span>
+							<span class="badge badge-pill badge-light">Adobe Flex</span>
+						</h4>
+					</div>
+				</div>
+			</div>
+		</div><!-- END Project 5 -->
+		
+		<!-- Bio -->
+		<div class="section" data-tooltip="hello">
+			<div class="container">
+			<div class="row">
+				<div class="col">
+					<h1>
+						Bio
+						<span class="float-right">
+							<a class="btn btn-secondary border-0 px-1 py-0 pb-2" href="https://stackoverflow.com/users/1892873/cory-silva" title="Cory's Stack Overflow Account" target="_blank">
+								<i class="fa fa-2x fa-stack-overflow"></i>
+							</a>
+							<a class="btn btn-secondary border-0 px-1 py-0 pb-2" href="https://github.com/coryasilva" title="Cory's Github Account" target="_blank">
+								<i class="fa fa-2x fa-github"></i>
+							</a>
+						</span>
+					</h1>
+					<p class="lead">
+						My love for computers and programming started while in elementary school when a family friend gave me a Visual Basic 4.0 tutorial book. 
+						Later in college, I discovered design, design process, architecture, and GIS -- then I started have fun!  
+						Web development and its ubiquitous access has become my favorite medium for design. 
+						I especially enjoy solving complex problems, automation, and building intuitive user interfaces.
+					</p>
+					<h2 class="cs-heading">Skills</h2>
+					<ul>
+						<li>Front End Development <em>(AngularJS, Bootstrap, SASS, LESS, Responsive Design)</em></li>
+						<li>Back End Development <em>(Coldfusion, some .NET, REST Architecture)</em></li>
+						<li>GIS Development <em>(Esri Suite, GeoServer, Mapbox)</em></li>
+						<li>DevOps <em>(Vagrant, Gulp, NPM, Git, SVN, Bash, Batch, ANT, Jenkins, TravisCI)</em></li>
+						<li>Web Server Administration <em>(Nginx, Apache, Tomcat, IIS)</em></li>
+						<li>Server Administration <em>(Windows, Fedora/Cent, Bash, Powershell, Virtualization)</em></li>
+						<li>Database Design <em>(PostgreSQL, MSSQL, some NoSQL)</em></li>
+						<li>Domain knowledge discovery, specification, and transfer</li>
+						<li>Prototyping and Minimum Viable Product (MVP) design</li>
+					</ul>
+					<h2 class="cs-heading">Interests + Hobbies</h2>
+					<h3 class="cs-tags">
+						<span class="badge badge-pill badge-light">Hiking</span>
+						<span class="badge badge-pill badge-light">Traveling</span>
+						<span class="badge badge-pill badge-light">Road Trips</span>
+						<span class="badge badge-pill badge-light">Science Fiction</span>
+						<span class="badge badge-pill badge-light">Cooking</span>
+						<span class="badge badge-pill badge-light">Architecture</span>
+						<span class="badge badge-pill badge-light">Design</span>
+						<span class="badge badge-pill badge-light">Vintage BMWs</span>
+					</h3>
+				</div>
+			</div>
+			</div>
+		</div><!-- END Bio -->
+		
+	</div><!-- END Content -->
+	<script>
+	// Init
+	$(document).ready(function() {
+		return new Portfolio().init();
+	});
+	
+	// View Model
+	function Portfolio() {
+		var vm = this;
+		vm.$pages = $('#pages');
+		vm.fullpageOptions = {
+			navigation: true,
+			scrollingSpeed: 500,
+			sectionsColor: ['#fff', '#fff', '#fff', '#fff', '#fff', '#fff', '#fff'],
+			anchors: ['home', 'rates', 'aus', 'ark', 'bim', 'fpm', 'bio'],
+			menu: '#menu'
+		};
+	}
+	
+	Portfolio.prototype.init = function () {
+		this.$pages.fullpage(this.fullpageOptions);
+	};
+	</script>
+  </body>
+</html>
